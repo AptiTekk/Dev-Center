@@ -1,2 +1,8 @@
-after_success:
-    "find src -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://$FTP_ADDRESS/{}"
+language: php
+before_script: skip
+script: skip
+deploy:
+    provider: script
+    script: "find src -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://$FTP_ADDRESS/{}"
+    on:
+        branch: master
