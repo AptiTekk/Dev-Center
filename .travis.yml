@@ -4,8 +4,8 @@ before_script: skip
 script: skip
 deploy:
     provider: script
-    script:
+    before_deploy:
         - cd src
-        - find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://$FTP_ADDRESS/{} \\;
+    script: "find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://$FTP_ADDRESS/{} \\;"
     on:
         branch: master
