@@ -50,7 +50,6 @@ body, html {
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    align-items: flex-end;
 }
 
 .block {
@@ -66,7 +65,11 @@ body, html {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-decoration: none;
+    color: white;
+    font-size: 30pt;
 }
 
 .block > a:hover {
