@@ -3,6 +3,8 @@ body, html {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    background: linear-gradient(158deg,#0075b9 0%,rgba(0,243,255,0.5) 100%);
+    background-attachment: fixed;
 }
 
 #header {
@@ -49,7 +51,6 @@ body, html {
     height: 100%;
     width: 100%;
     align-items: flex-end;
-    background: linear-gradient(158deg,#0075b9 0%,rgba(0,243,255,0.5) 100%);
 }
 
 .block {
