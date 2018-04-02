@@ -106,6 +106,10 @@ body, html {
 /* Mobile Tweaks */
 
 @media only screen and (max-width: 600px) {
+    
+    body, html {
+        min-height: calc(100% + 80px);   
+    }
 
     .block-full {
         flex-basis: 100%;
