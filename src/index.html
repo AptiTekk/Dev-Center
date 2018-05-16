@@ -10,87 +10,67 @@
     <link rel="stylesheet" href="/normalize.css"/>
     <link rel="stylesheet" href="/style.css"/>
     <meta name="viewport" content="width=device-width">
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous" type="text/javascript"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $("#includeHeader").load("/templates/header.html");
-        })
-    </script>
 </head>
 <body>
-<div id="includeHeader"></div>
+
+<div id="header">
+    <a href="https://AptiTekk.com/" style="text-decoration: none">
+        <img src="/images/AptiTekk.svg" id="logo" alt="AptiTekk Logo"/>
+    </a>
+    <h1>Dev Center</h1>
+</div>
 
 <div id="content">
     <div id="blocks">
-		<!-- JIRA -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/jira/">
-				<img src="/images/jira.svg" alt="JIRA Logo"/>
-			</a>
-		</div>
+        <!-- JIRA -->
+        <div class="block block-third">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="/jira/">
+                <img src="/images/jira.svg" alt="JIRA Logo"/>
+            </a>
+        </div>
 
-		<!-- Bitbucket -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/git/">
-				<img src="/images/bitbucket.svg" alt="Bitbucket Logo"/>
-			</a>
-		</div>
+        <!-- Bitbucket -->
+        <div class="block block-third">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="/git/">
+                <img src="/images/bitbucket.svg" alt="Bitbucket Logo"/>
+            </a>
+        </div>
 
-		<!-- Bamboo -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/pages/bamboo.html">
-				<img src="/images/bamboo.svg" alt="Bamboo Logo"/>
-			</a>
-		</div>
+        <!-- Bamboo -->
+        <div class="block block-third">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="/bamboo">
+                <img src="/images/bamboo.svg" alt="Bamboo Logo"/>
+            </a>
+        </div>
 
-		<!-- Stripe -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="https://dashboard.stripe.com/">
-				<img src="/images/stripe.svg" alt="Stripe Logo"/>
-			</a>
-		</div>
+        <!-- Stripe -->
+        <div class="block block-third">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="https://dashboard.stripe.com/">
+                <img src="/images/stripe.svg" alt="Stripe Logo"/>
+            </a>
+        </div>
 
-		<!-- CAS -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/cas">
-				<img src="/images/cas.svg" alt="CAS Logo"/>
-			</a>
-		</div>
+        <!-- CAS -->
+        <div class="block block-third">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="/cas">
+                <img src="/images/cas.svg" alt="CAS Logo"/>
+            </a>
+        </div>
 
-		<!-- Heroku -->
-		<div class="block block-third">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="https://dashboard.heroku.com/">
-				<img src="/images/heroku.svg" alt="Heroku Logo"/>
-			</a>
-		</div>
+        <!-- WordPress -->
+        <div class="block block-half">
+            <!--suppress HtmlUnknownTarget -->
+            <a href="/wp/">
+                <img src="/images/wordpress.svg" alt="WordPress Logo"/>
+            </a>
+        </div>
 
-		<!-- WordPress -->
-		<div class="block block-half">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/wp/">
-				<img src="/images/wordpress.svg" alt="WordPress Logo"/>
-			</a>
-		</div>
-
-		<!-- Monit -->
-		<div class="block block-half">
-			<!--suppress HtmlUnknownTarget -->
-			<a href="/monit/">
-				<img src="/images/monit.svg" alt="Monit Logo"/>
-			</a>
-		</div>
-
-	</div>
+    </div>
 </div>
 </body>
 </html>

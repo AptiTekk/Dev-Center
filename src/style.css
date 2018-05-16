@@ -8,7 +8,7 @@ body, html {
 }
 
 #header {
-    height: 80px;
+    height: 70px;
     width: 100%;
     background-color: #fff;
     z-index: 999;
@@ -18,7 +18,7 @@ body, html {
 }
 
 #logo {
-    height: 70px;
+    height: 60px;
     margin-top: 5px;
     margin-left: 10px;
     padding-right: 10px;
